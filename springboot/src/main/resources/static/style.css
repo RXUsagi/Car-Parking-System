@@ -1,0 +1,149 @@
+body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+footer {
+    margin: 50px 0;
+}
+
+.panel-green {
+    border-color: #5cb85c;
+}
+.panel-green > .panel-heading {
+    color: white;
+    background-color: #5cb85c;
+    border-color: #5cb85c;
+}
+.panel-green > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #5cb85c;
+}
+.panel-green > .panel-heading .badge {
+    color: #5cb85c;
+    background-color: white;
+}
+.panel-green > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #5cb85c;
+}
+
+
+.panel-red {
+    border-color: #d9534f;
+}
+.panel-red > .panel-heading {
+    color: white;
+    background-color: #d9534f;
+    border-color: #d9534f;
+}
+.panel-red > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #d9534f;
+}
+.panel-red > .panel-heading .badge {
+    color: #d9534f;
+    background-color: white;
+}
+.panel-red > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #d9534f;
+}
+
+.panel-yellow {
+    border-color: #f0ad4e;
+}
+.panel-yellow > .panel-heading {
+    color: white;
+    background-color: #f0ad4e;
+    border-color: #f0ad4e;
+}
+.panel-yellow > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: #f0ad4e;
+}
+.panel-yellow > .panel-heading .badge {
+    color: #f0ad4e;
+    background-color: white;
+}
+.panel-yellow > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: #f0ad4e;
+}
+
+.colorfontwhite {
+    color: white !important;
+    text-decoration: none !important;
+    font-size: 40px;
+}
+
+.imgicon{
+    width: 80px;
+}
+
+.imgIO{
+    width: 400px;
+    height: 300px;
+}
+
+.panel-table .panel-body{
+    padding:0;
+}
+
+.panel-table .panel-body .table-bordered{
+    border-style: none;
+    margin:0;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:first-of-type {
+    text-align:center;
+    width: 100px;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:last-of-type,
+.panel-table .panel-body .table-bordered > tbody > tr > td:last-of-type {
+    border-right: 0px;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:first-of-type,
+.panel-table .panel-body .table-bordered > tbody > tr > td:first-of-type {
+    border-left: 0px;
+}
+
+.panel-table .panel-body .table-bordered > tbody > tr:first-of-type > td{
+    border-bottom: 0px;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr:first-of-type > th{
+    border-top: 0px;
+}
+
+.panel-table .panel-footer .pagination{
+    margin:0;
+}
+
+/*
+used to vertically center elements, may need modification if you're not using default sizes.
+*/
+.panel-table .panel-footer .col{
+    line-height: 34px;
+    height: 34px;
+}
+
+.panel-table .panel-heading .col h3{
+    line-height: 30px;
+    height: 30px;
+}
+
+.panel-table .panel-body .table-bordered > tbody > tr > td{
+    line-height: 34px;
+}
+
+.pagination-centered {
+    text-align: center;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.pointer-disabled {
+    pointer-events: none;
+}
+
+.labelleft{
+    text-align:left !important;
+}
